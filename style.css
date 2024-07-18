@@ -392,6 +392,9 @@ summary{
            
     }
     
+    .h3{
+        font-size: small;
+    }
     .input{
        width: 350px;
     }
@@ -429,9 +432,15 @@ summary{
         grid-template-columns: auto auto ;
         height: auto;
         gap: 40px;
+        font-size: small;
     }
     .footer1{
-        padding-left: 80px;
+        padding-left: 40px;
+        text-align: center;
+    }
+    .h1{
+        padding-left: 0;
+        font-size: small;
     }
     .filters{
         padding-left: 0;

@@ -11,13 +11,18 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Ga+Maamli&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Anton+SC&family=Ga+Maamli&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@400;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rammetto+One&display=swap" rel="stylesheet">
+
 
 </head>
 <body>
 
     <header>
         <div class="logo">
-            <h1>Zomato</h1>
+            <h1>Zomato </h1>
             <div class="popUp">
                 <img src="profile.webp" alt="">
             </div>
@@ -62,13 +67,24 @@
         <div class="h2">
             <h2>Inspiration for your first order</h2>
         </div>
-        <div class="images">
-            <div class="card"><img src="images-removebg-preview.png" alt=""><h3>Biriyani</h3></div>
-            <div class="card"><img src="image-removebg-preview (1).png" alt=""><h3>Chicken</h3></div>
-            <div class="card"><img src="images__2_-removebg-preview.png" alt=""><h3>Pizza</h3></div>
-            <div class="card"><img src="image-removebg-preview (1).png" alt=""><h3>Chicken</h3></div>
-            <div class="card"><img src="images-removebg-preview.png" alt=""><h3>Biriyani</h3></div>
+        
+        <div class="images" id="images">
+            <div class="card"><div class="image"><img src="images-removebg-preview.png" alt=""></div><h3>Biriyani</h3></div>
+            <div class="card"><div class="image"><img src="image-removebg-preview (1).png" alt=""></div><h3>Chicken</h3></div>
+            <div class="card"><div class="image"><img src="images__2_-removebg-preview.png" alt=""></div><h3>Pizza</h3></div>
+            <div class="card"><div class="image"><img src="image-removebg-preview (1).png" alt=""></div><h3>Chicken</h3></div>
+            <div class="card"><div class="image"><img src="images-removebg-preview.png" alt=""></div><h3>Biriyani</h3></div>
+            <div class="card"><div class="image"><img src="image-removebg-preview (1).png" alt=""></div><h3>Chicken</h3></div>
+            <div class="card"><div class="image"><img src="images__2_-removebg-preview.png" alt=""></div><h3>Pizza</h3></div>
+            <div class="card"><div class="image"><img src="image-removebg-preview (1).png" alt=""></div><h3>Chicken</h3></div>
+            <div class="card"><div class="image"><img src="images-removebg-preview.png" alt=""></div><h3>Biriyani</h3></div>
+            <div class="card"><div class="image"><img src="images-removebg-preview.png" alt=""></div><h3>Biriyani</h3></div>
+            <div class="card"><div class="image"><img src="images-removebg-preview.png" alt=""></div><h3>Biriyani</h3></div>
+            <div class="card"><div class="image"><img src="images-removebg-preview.png" alt=""></div><h3>Biriyani</h3></div>
         </div>
+        <div class="arrow" id="arrow_right" onclick="arrow(true, false, this)"></div>
+        <div class="arrow " id="arrow_left" onclick="arrow(false , true,this)"></div>
+        
     </div>
 
     <div class="container">
@@ -346,6 +362,6 @@
         </div>
     </div>
     
-        
+     <script src="script.js"></script>   
 </body>
 </html>
